@@ -3,6 +3,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     
 }
@@ -49,6 +50,11 @@ ul {
     gap: 16px;
 }
 
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 a {
     color: #e5e7eb;
     text-decoration: none;
@@ -70,4 +76,38 @@ a {
     border: 0px;
     width: 100px;
     height: 30px
+}
+
+/* Information */
+
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 45px 150px;
+}
+
+.info-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+    text-align: center;
+    color: #6d6d6d;
+    gap: 20px;
+}
+
+.info-image {
+    height: 150px;
+    border:8px solid #3882f7;
+    border-radius: 8px;
 }
